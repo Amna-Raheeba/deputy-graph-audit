@@ -1,0 +1,81 @@
+{
+  "auditor": {
+    "fn": 0,
+    "fp": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "tp": 170
+  },
+  "keyword_baseline": {
+    "fn": 130,
+    "fp": 20,
+    "precision": 0.6667,
+    "recall": 0.2353,
+    "tp": 40
+  },
+  "n_benign": 120,
+  "n_traces": 290,
+  "n_violations": 170,
+  "path_exactness": 1.0,
+  "paths_exact": 170,
+  "paths_scored": 170,
+  "per_call_baseline": {
+    "fn": 170,
+    "fp": 0,
+    "precision": 1.0,
+    "recall": 0.0,
+    "tp": 0
+  },
+  "per_pattern": {
+    "benign_keyword": {
+      "detected": 0,
+      "n": 20,
+      "recall": 0.0
+    },
+    "benign_low": {
+      "detected": 0,
+      "n": 25,
+      "recall": 0.0
+    },
+    "benign_tool": {
+      "detected": 0,
+      "n": 20,
+      "recall": 0.0
+    },
+    "benign_user": {
+      "detected": 0,
+      "n": 30,
+      "recall": 0.0
+    },
+    "benign_verified": {
+      "detected": 0,
+      "n": 25,
+      "recall": 0.0
+    },
+    "direct": {
+      "detected": 40,
+      "n": 40,
+      "recall": 1.0
+    },
+    "three_hop": {
+      "detected": 30,
+      "n": 30,
+      "recall": 1.0
+    },
+    "tool_output": {
+      "detected": 30,
+      "n": 30,
+      "recall": 1.0
+    },
+    "two_hop_laundering": {
+      "detected": 40,
+      "n": 40,
+      "recall": 1.0
+    },
+    "verification_bypass": {
+      "detected": 30,
+      "n": 30,
+      "recall": 1.0
+    }
+  }
+}
