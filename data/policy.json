@@ -1,0 +1,18 @@
+{
+  "tools": {
+    "read_public_data": 0,
+    "summarise": 0,
+    "search_internal": 1,
+    "draft_message": 1,
+    "write_workspace": 2,
+    "send_external": 3,
+    "delete_records": 3,
+    "make_payment": 3
+  },
+  "levels": {
+    "0": "untrusted",
+    "1": "low",
+    "2": "user",
+    "3": "approver"
+  }
+}
